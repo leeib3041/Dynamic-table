@@ -9,12 +9,11 @@
 using namespace std;
 
 int main() {
-
     int op =10;
     Timer time;
-//    ofstream outFile = ofstream("results.txt");
-//    for(op=1; op<1000; op++){
+    ofstream outFile = ofstream("results.txt");
 
+    for(op=1; op<1000; op++){
         DynamicTable table = DynamicTable();
 
         time.start();
@@ -22,10 +21,11 @@ int main() {
             table.insert(10);
         }
         time.stop();
-//        outFile << time.getElapsedTime() << endl;
-//    }
-//
-//    outFile.close();
+
+        outFile << time.getElapsedTime() << endl;
+    }
+
+    outFile.close();
 
     return 0;
 }
