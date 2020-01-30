@@ -1,7 +1,6 @@
 
 #include "DynamicTable.h"
 
-#include <iostream>
 
 void DynamicTable::insert(int value)
 {
