@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/DynamicTable.cpp
+DynamicTable.h
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/DynamicTable.h
+
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/DynamicTable.h
+stdlib.h
+-
+
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/Timer.cpp
+Timer.h
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/Timer.h
+stdlib.h
+-
+
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/Timer.h
+windows.h
+-
+sys/time.h
+-
+
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/main.cpp
+iostream
+-
+fstream
+-
+cmath
+-
+DynamicTable.h
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/DynamicTable.h
+Timer.h
+/Users/hyeoplee/Dropbox/data/data2/dynamic-table-leeib3041/Timer.h
+
